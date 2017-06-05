@@ -13,4 +13,4 @@ from Sparse import app
 #        PORT = 5555
 #    app.run(HOST, PORT)
 
-app.run('127.0.0.1', 5555, debug=True, threaded= True)
+app.run('0.0.0.0', 5008, debug=True, threaded= True)
