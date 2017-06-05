@@ -32,15 +32,6 @@ authObj = auth('secretkey', algorithm = 'HS512')
 from Sparse.classes.account.users import users
 userObj = users(authObj, redisServer)
 
-from Sparse.classes.recommendation.RecomEngine import RecomEngine
-recomObj = RecomEngine(redisServer)
-
-from Sparse.classes.recommendation.RecomPlacement import RecomPlacement
-recomPlacementObj = RecomPlacement(redisServer)
-
-from Sparse.classes.search.SearchEngine import SearchEngine
-searchObj = SearchEngine(redisServer)
-
 """
 Init Auth System
 """
