@@ -3,7 +3,7 @@ This script runs the Sparse application using a development server.
 """
 
 from os import environ
-from Sparse import app
+from Desi import app
 
 #if __name__ == '__main__':
 #    HOST = environ.get('SERVER_HOST', 'localhost')
